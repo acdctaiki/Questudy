@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Questudy</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#121a2d"/>
+      <stop offset="1" stop-color="#070b14"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5d58a"/>
+      <stop offset="1" stop-color="#b88435"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="104" fill="url(#bg)"/>
+  <path d="M256 72 398 154v164L256 440 114 318V154Z" fill="none" stroke="#334e78" stroke-width="18"/>
+  <path d="M315 338c-19 15-41 23-67 23-65 0-111-45-111-108 0-64 47-110 113-110s112 46 112 110c0 25-7 47-21 65l38 35-37 39Zm-65-37c30 0 50-19 50-48 0-30-20-49-50-49-29 0-49 19-49 49 0 29 20 48 49 48Z" fill="url(#gold)"/>
+</svg>

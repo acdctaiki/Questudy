@@ -1,0 +1,3 @@
+export default function Result({ result, navigate }) {
+  return <div className="page result-page fade-in"><span className="clear-badge">QUEST CLEAR!</span><div className="trophy">✦</div><h1>{result.quest.title}</h1><p>{result.quest.minutes}分の学習を記録しました</p><div className="result-rewards"><div><small>経験値</small><strong>+{result.quest.exp}</strong></div><div><small>バトル力</small><strong>+{result.power}</strong></div></div>{result.levelUp&&<div className="level-up">LEVEL UP!　Lv.{result.level}</div>}<div className="result-buttons"><button className="secondary" onClick={()=>navigate('home')}>ホームへ</button><button className="primary" onClick={()=>navigate('battle')}>力を使って戦う →</button></div></div>
+}

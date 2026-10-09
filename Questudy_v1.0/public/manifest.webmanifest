@@ -1,0 +1,19 @@
+{
+  "name": "Questudy — 学びを、冒険に。",
+  "short_name": "Questudy",
+  "description": "学習クエストを達成して成長し、敵へ挑む学習RPG。",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070b14",
+  "theme_color": "#0b1020",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
